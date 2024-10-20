@@ -7,11 +7,11 @@ const CategoryGroup = ({ currentCategory, categories }) => {
   return <>
     <div id='category-list' className='dark:border-gray-600 flex flex-wrap  mx-4'>
       {categories.map(category => {
-        const selected = currentCategory === category.name
+        const selected = currentCategory === category.name_cn
         return (
           <Link
-            key={category.name}
-            href={`/category/${category.name}`}
+            key={category.name_cn}
+            href={`/category/${category.name_cn}`}
             passHref
             className={(selected
               ? 'hover:text-white dark:hover:text-white bg-indigo-600 text-white '
