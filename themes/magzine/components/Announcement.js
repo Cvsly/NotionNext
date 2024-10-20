@@ -14,7 +14,7 @@ const Announcement = ({ post, className }) => {
         <section
           id='announcement-wrapper'
           className='rounded-xl px-2'>
-          {/* <div><i className='mr-2 fas fa-bullhorn' />{locale.COMMON.ANNOUNCEMENT}</div> */}
+          {/* <div><i className='mr-2 fas fa-bullhorn' />{locale.COMMON.公告}</div> */}
           {post && (
             <div id='announcement-content'>
               <NotionPage post={post}/>
