@@ -16,13 +16,13 @@ const SocialButton = () => {
   const CONTACT_WEIBO = siteConfig('CONTACT_WEIBO')
   const CONTACT_INSTAGRAM = siteConfig('CONTACT_INSTAGRAM')
   const CONTACT_EMAIL = siteConfig('CONTACT_EMAIL')
-  const ENABLE_RSS = siteConfig('ENABLE_RSS')
   const CONTACT_BILIBILI = siteConfig('CONTACT_BILIBILI')
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
 
   const CONTACT_XIAOHONGSHU = siteConfig('CONTACT_XIAOHONGSHU')
   const CONTACT_ZHISHIXINGQIU = siteConfig('CONTACT_ZHISHIXINGQIU')
   const CONTACT_WEHCHAT_PUBLIC = siteConfig('CONTACT_WEHCHAT_PUBLIC')
+  const ENABLE_RSS = siteConfig('ENABLE_RSS')
   const [qrCodeShow, setQrCodeShow] = useState(false)
 
   const openPopover = () => {
