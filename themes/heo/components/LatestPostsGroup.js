@@ -7,7 +7,7 @@ import Link from 'next/link'
  * @param sliceCount 截取展示的数量 默认6
  * @constructor
  */
-const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
+const 最新发布Group = ({ latestPosts, siteInfo }) => {
   // 获取当前路径
 
   if (!latestPosts) {
