@@ -12,7 +12,7 @@ const TagGroups = ({ tagOptions, currentTag }) => {
   const { locale } = useGlobal()
   if (!tagOptions) return <></>
   return (
-    <div id='标签-group' className='dark:border-gray-600 py-4'>
+    <div id='tags-group' className='dark:border-gray-600 py-4'>
       <div className='mb-2'>
         <i className='mr-2 fas fa-tag' />
         {locale.COMMON.TAGS}
